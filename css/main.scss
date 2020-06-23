@@ -1,0 +1,47 @@
+html {
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+a,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: #ed8367;
+}
+
+.container {
+  margin: 0 auto;
+  min-height: 100vh;
+  max-width: 700px;
+}
+
+hr {
+  border-color: #63567b;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 500;
+  margin-top: 30px;
+  line-height: 1;
+}
+
+p {
+  margin-top: 15px;
+}
+
+.author {
+  font-style: italic;
+  color: #689aed;
+}
+
+.image {
+  background-size: 25%;
+}
